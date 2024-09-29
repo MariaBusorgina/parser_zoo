@@ -109,7 +109,7 @@ async def fetch_all_product_details(product_urls):
     Создает и выполняет асинхронные задачи для извлечения информации о продуктах по предоставленным ссылкам.
 
     Параметры:
-    cards (list): Список ссылок на карточки товаров.
+    product_urls (list): Список ссылок на карточки товаров.
     """
     tasks = []
     # for url in product_urls:
